@@ -38,8 +38,8 @@ const config: ForgeConfig = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'replace-me',
-          name: 'replace-me'
+          owner: 'mattyg',
+          name: 'mewsfeed-kangaroo-electron'
         },
         prerelease: false,
         draft: true

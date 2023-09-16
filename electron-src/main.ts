@@ -13,7 +13,7 @@ import { signZomeCallWithClient, ZomeCallUnsignedNapi } from 'holochain-lair-sig
 const HAPP_FILE = "mewsfeed.happ"; // replace-me Enter the path to your happ
 const APP_ID = "main-app"; // replace-me
 const LAIR_PASSWORD = "password";
-const WINDOW_TITLE = "replace-me".toUpperCase(); //replace-me
+const WINDOW_TITLE = "mewsfeed"; //replace-me
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
@@ -33,7 +33,7 @@ const handleSignZomeCall = (e: Event, zomeCall: ZomeCallUnsignedNapi) => {
 export function stateSignalToText(state: StateSignal): string {
   switch (state) {
     case StateSignal.IsFirstRun:
-      return 'Welcome to replace-me...';
+      return 'Welcome to mewsfeed...';
     case StateSignal.IsNotFirstRun:
       return 'Loading...';
     case StateSignal.CreatingKeys:

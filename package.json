@@ -1,6 +1,6 @@
 {
-  "name": "replace-me",
-  "productName": "replace-me",
+  "name": "mewsfeed-kangaroo-electron",
+  "productName": "mewsfeed-kangaroo-electron",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".vite/build/main.js",
